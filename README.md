@@ -4,3 +4,5 @@ This software project is a video server and client(s) system for Dynamic Adaptiv
 
 Segmented videos can be found at:
 http://www-itec.uni-klu.ac.at/ftp/datasets/DASHDataset2014/
+
+![alt tag](DS1.JPG)

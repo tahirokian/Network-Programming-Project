@@ -1,0 +1,17 @@
+source code and makefile here.
+
+Makefile related instructions:
+For compiling server and client, use: make
+For compiling server only, use: make server
+For compiling client only, use: make client
+For cleaning server and client, use: make clean
+For cleaning server only, use: make cleanServ
+For cleaning client only, use: make cleanClient
+
+For running server and client use:
+./server <IPv4 or IPv6 address or name> <port>
+./client <IPv4 or IPv6 address or name> <port>
+
+Server side requirement:
+MPD file should be present in the server directory.
+Video segments and initialization file should be inside their corresponding directories which should be present in server directory.

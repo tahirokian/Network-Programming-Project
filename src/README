@@ -14,4 +14,4 @@ For running server and client use:
 
 Server side requirement:
 MPD file should be present in the server directory.
-Video segments and initialization file should be inside their corresponding directories which should be present in server directory.
+The path to the video segments and initialization file should be set in server.c file.

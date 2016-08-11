@@ -1,6 +1,7 @@
 source code and makefile here.
 
-Makefile related instructions:
+# Makefile related instructions:
+
 For compiling server and client, use: make
 For compiling server only, use: make server
 For compiling client only, use: make client
@@ -8,10 +9,22 @@ For cleaning server and client, use: make clean
 For cleaning server only, use: make cleanServ
 For cleaning client only, use: make cleanClient
 
-For running server and client use:
+# For running server and client use:
+
 ./server <IPv4 or IPv6 address or name> <port>
 ./client <IPv4 or IPv6 address or name> <port>
 
-Server side requirement:
+# Server side requirement:
+
 MPD file should be present in the server directory.
 The path to the video segments and initialization file should be set in server.c file.
+
+# Segemented video file:
+
+Segmented video files  can be downloaded from:
+http://www-itec.uni-klu.ac.at/ftp/datasets/DASHDataset2014/
+
+#FFMPEG Installation:
+
+The client side requires ffmpeg support to run the code. FFMPEG installation instructions for Linux distros can be found at https://trac.ffmpeg.org/wiki/CompilationGuide/Ubuntu.
+ 

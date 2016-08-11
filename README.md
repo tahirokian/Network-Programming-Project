@@ -7,20 +7,23 @@ More specifically, this system server accepts video requests from the client(s) 
 
 ![alt tag](/images/Architecture.png)
 
-2.2 Server and Client Use cases 
-Server Use Case: Receive Video Request
+# Server use case: Receive video request
 
 ![alt tag](/images/serverUse.png)
 
-
-Client requests a video, server receives the request, parses the request and sends the MPD
-corresponding to requested file and thereafter the video segments of the requested video,
-according to the requests by client. 
 1. Server receives request for a video
 2. Sever parses the request and checks its video repository
 3. If video is found, the server responds with the MPD of the requested file.
 4. Sever receives requests for segments.
 5. Server sends the corresponding segments. 
-Client Use Case: Receive Video to be played from user
 
-Send video segments 
+# Client use case: Receive video to be played
+
+![alt tag](/images/clientUse.png)
+
+1. User enters a video name
+2. Client sends the name to the server.
+3. Client receives MPD, and parses its
+4. Client checks network conditions
+5. Client sends request for a video segment based on network conditions.
+6. Client plays video (simulates play).  
